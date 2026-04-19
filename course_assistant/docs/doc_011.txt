@@ -1,0 +1,10 @@
+Topic: IP Addressing
+An IP (Internet Protocol) address is a numerical label assigned to each device connected to a computer network that uses the IP for communication. 
+
+IPv4 involves a 32-bit address space, usually formatted in dotted-decimal notation (e.g., 192.168.1.1). 
+Classes in IPv4:
+- Class A: First bit is 0. Used for massive networks. (0.0.0.0 - 127.255.255.255)
+- Class B: First two bits are 10. Medium networks. (128.0.0.0 - 191.255.255.255)
+- Class C: First three bits are 110. Small networks. (192.0.0.0 - 223.255.255.255)
+
+Subnetting is the practice of dividing a network into two or smaller networks. It increases routing efficiency and enhances security of the network. A subnet mask like 255.255.255.0 hides the network part of the IP address, leaving the host part. Local networks heavily rely on DHCP to automatically distribute these IP addresses to computers as they connect.

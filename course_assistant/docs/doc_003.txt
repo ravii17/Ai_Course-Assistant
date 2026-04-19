@@ -1,0 +1,11 @@
+Topic: Software Engineering Principles
+Software Engineering is the systematic application of engineering approaches to the development of software. A software engineer applies principles of computer science and mathematical analysis to the design, development, testing, and evaluation of the software and systems.
+
+Important Software Engineering concepts include:
+1. Requirements gathering: Understanding what the client actually needs.
+2. Architecture & Design: Translating requirements into a software architecture.
+3. Implementation: The actual coding phase.
+4. Testing: Ensuring the software works as intended and is free of bugs.
+5. Maintenance: Updating and improving software after it has been deployed.
+
+Popular methodologies include Agile, Scrum, and Waterfall, each with specific advantages and use cases. Agile focuses on iterative development and flexibility, while Waterfall is linear and sequential.

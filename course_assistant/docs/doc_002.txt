@@ -1,0 +1,10 @@
+Topic: Database Management Systems (DBMS)
+A Database Management System (DBMS) is software designed to store, retrieve, define, and manage data in a database. The primary goal of a DBMS is to provide an environment that is both convenient and efficient to use in retrieving and storing database information.
+
+Key concepts in DBMS:
+1. ACID Properties: Ensures reliable processing of transactions. Atomicity, Consistency, Isolation, and Durability.
+2. Normalization: The process of organizing data to minimize redundancy. The stages include 1NF (eliminating repeating groups), 2NF (eliminating redundant data), and 3NF (eliminating columns not dependent on key).
+3. Concurrency Control: Managing simultaneous operations on the database without conflicting with one another.
+4. Data Models: Relational Model (tables and relations), Entity-Relationship (ER) Model.
+
+DBMS provides data independence, separating the data structure from the application programming.

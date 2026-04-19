@@ -1,0 +1,18 @@
+Topic: Computer Networks Formulas
+In Computer Networks, several formulas and metrics determine performance. 
+
+1. Throughput is the actual rate of data transfer over the network, usually lower than bandwidth.
+   Formulas:
+   - Transmission Delay = Packet Size (L) / Bandwidth (B)
+   - Propagation Delay = Distance (d) / Propagation Speed (v)
+   
+2. Round Trip Time (RTT): The time required for a signal to go from the sender to the receiver and back again.
+   - RTT = 2 * Propagation Delay
+
+3. TCP Error Control (Checksum/Sliding Window): The maximum window size for Stop and Wait is 1. For Go-Back-N, it's 2^m - 1 where m is the sequence number bits.
+
+4. Shannon Capacity: Defines the maximum data rate of a noisy channel.
+   - C = B * log2(1 + S/N)
+   where B is bandwidth, S is signal power, and N is noise power.
+
+These calculations are heavily tested in academic exams.

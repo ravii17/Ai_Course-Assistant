@@ -1,0 +1,11 @@
+Topic: Operating Systems (OS)
+An Operating System is system software that manages computer hardware, software resources, and provides common services for computer programs.
+
+Core responsibilities of an OS:
+1. Process Management: Handles the creation, scheduling, and termination of processes. An OS must ensure that multiple processes share the CPU fairly without deadlock.
+2. Memory Management: Keeps track of primary memory, i.e., what part of it is in use by whom, what part is not in use. It allocates the memory when a process requests it and deallocates it when it's freed.
+3. File System Management: Organizes files into directories for easy navigation and usage. Handles file permissions and storage.
+4. Device Management: Keeps track of all devices using I/O controllers.
+5. Security and Access Control: Prevents unauthorized access to programs and data.
+
+Linux, Windows, and macOS are popular OS examples.

@@ -1,0 +1,13 @@
+Topic: Deadlock in OS
+A deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process. 
+
+Four necessary conditions for Deadlock (Coffman conditions):
+1. Mutual Exclusion: At least one resource must be held in a non-shareable mode.
+2. Hold and Wait: A process must be holding at least one resource and waiting to acquire additional resources held by other processes.
+3. No Preemption: Resources cannot be preempted; a resource can be released only voluntarily by the process holding it.
+4. Circular Wait: A set of processes are waiting for each other in a circular chain.
+
+Deadlock Handling Strategies:
+- Deadlock Prevention: Negating one of the four Coffman conditions.
+- Deadlock Avoidance: Using algorithms like Banker's Algorithm to dynamically analyze resource-allocation states.
+- Deadlock Detection and Recovery: Allowing deadlocks to occur, detecting them, and then preempting resources or killing processes to recover.

@@ -1,0 +1,13 @@
+Topic: Data Structures
+Data structures are ways to organize and store data so that they can be accessed and worked with efficiently. They define the relationship between the data, and the operations that can be performed on the data.
+
+Common Data Structures:
+1. Arrays: A collection of elements identified by index or key. Fixed size.
+2. Linked Lists: Elements point to the next element. Dynamic size but slower access time.
+3. Stacks: LIFO (Last In, First Out) structure. Operations include push and pop.
+4. Queues: FIFO (First In, First Out) structure. Operations include enqueue and dequeue.
+5. Trees: Hierarchical structure with a root and children. Popular trees include Binary Search Trees (BST).
+6. Hash Tables: Implements an associative array, mapping keys to values using a hash function for constant time lookups.
+7. Graphs: A set of nodes connected by edges, used to model networks.
+
+Choosing the right data structure is crucial for algorithm optimization.

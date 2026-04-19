@@ -1,0 +1,10 @@
+Topic: Software Testing
+Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. Testing helps prevent bugs, reduces development costs, and improves performance.
+
+Types of Testing:
+1. Unit Testing: Testing individual units or components of the software. Usually done by developers.
+2. Integration Testing: Testing combined parts of an application to determine if they function together correctly.
+3. System Testing: Testing the complete and integrated software.
+4. Acceptance Testing: Done by the end-user to determine if the system meets the business requirements.
+
+Testing methods include Black-Box testing (tester doesn't know internal code), White-Box testing (tester knows internal code structure), and Regression testing (re-running tests after code changes). Automation scripts using tools like Selenium or Pytest are critical in modern CI/CD pipelines.
