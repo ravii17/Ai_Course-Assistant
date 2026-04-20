@@ -1,8 +1,8 @@
-Topic: CPU Scheduling Algorithms
-CPU scheduling is a process that allows one process to use the CPU while the execution of another process is on hold (in waiting state) due to unavailability of any resource like I/O.
+CPU Scheduling Algorithms
+CPU scheduling decides which process gets to use the CPU while another one waits (like for I/O).
 
-Important Algorithms:
-1. First-Come, First-Served (FCFS): The process that requests the CPU first is allocated the CPU first. It is non-preemptive and can lead to the 'convoy effect' where short processes wait for a long one.
-2. Shortest Job Next (SJN/SJF): Associates with each process the length of its next CPU burst. Best approach for minimizing average waiting time, but predicting burst time is hard.
-3. Round Robin (RR): Each process gets a small unit of CPU time (time quantum), usually 10-100 milliseconds. After this time has elapsed, the process is preempted and added to the end of the ready queue. Ideal for time-sharing systems.
-4. Priority Scheduling: A priority is associated with each process, and the CPU is allocated to the process with the highest priority. Can cause starvation.
+Common algorithms:
+- FCFS: First-Come, First-Served. Simple, but short processes can get stuck waiting for long ones.
+- SJF: Shortest Job First. Best for reducing wait times, but it's hard to guess how long a job will actually take.
+- Round Robin (RR): everyone gets a small time slice. Once time is up, the process goes to the back of the line. Great for responsiveness.
+- Priority: highest priority goes first, but low priority jobs might starve.

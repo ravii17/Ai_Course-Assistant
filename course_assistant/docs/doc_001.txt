@@ -1,13 +1,11 @@
-Topic: Computer Networks Overview
-Computer Networks connect multiple devices to share resources and information. Central to networking is the OSI (Open Systems Interconnection) model, a conceptual framework used to describe the functions of a networking system. The OSI model characterizes computing functions into a universal set of rules and requirements in order to support interoperability between different products and software.
+Computer Networks Overview
+Networks basically connect devices so they can share resources. The core concept here is the OSI model, which is just a conceptual framework that explains how networking actually works so different systems can talk to each other.
 
-The OSI model consists of seven layers:
-1. Physical Layer: Handles the physical connection between devices and the transmission of raw bit streams.
-2. Data Link Layer: Node-to-node data transfer and error handling.
-3. Network Layer: Handles routing and forwarding of data packets across different networks (e.g., IP).
-4. Transport Layer: Provides reliable or unreliable data transfer services (TCP/UDP).
-5. Session Layer: Manages sessions and dialogues between applications.
-6. Presentation Layer: Data translation, encryption, and compression.
-7. Application Layer: Network applications like HTTP, FTP, SMTP.
-
-Understanding these layers helps network engineers isolate and troubleshoot problems efficiently.
+The 7 OSI layers are:
+- Physical: hardware connections and raw bits.
+- Data Link: node-to-node data and error checking.
+- Network: routing packets (like IP addresses).
+- Transport: reliable or unreliable data transfer (TCP/UDP).
+- Session: handles application sessions.
+- Presentation: data formatting, encryption, and compression.
+- Application: actual network apps like HTTP or FTP.

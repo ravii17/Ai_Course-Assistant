@@ -1,17 +1,10 @@
-Topic: Entity-Relationship Model
-The Entity-Relationship (ER) model is a high-level conceptual data model. It enables database designers to visualize how database entities relate to each other.
+Entity-Relationship Model
+The ER model helps visualize how a database is structured before building it.
 
-Components of an ER Diagram:
-1. Entity: A real-world object (e.g., Student, Teacher, Course). Represented by a rectangle.
-2. Attribute: Properties of an entity (e.g., Student Roll No, Name). Represented by an oval.
-   - Primary Key: An attribute that uniquely identifies an entity (underlined oval).
-   - Multivalued Attribute: Represented by a double oval.
-3. Relationship: Describes how two or more entities are associated (e.g., 'Enrolls in'). Represented by a diamond.
+The main parts:
+- Entity: a thing like a Student or Course (drawn as a rectangle).
+- Attribute: properties of an entity like Name or ID (drawn as an oval). Primary keys are underlined.
+- Relationship: how entities are connected (drawn as a diamond).
 
-Cardinality defines the numerical attributes of the relationship:
-- One-to-One (1:1)
-- One-to-Many (1:N)
-- Many-to-One (N:1)
-- Many-to-Many (M:N)
-
-By converting ER models to relational tables, a structured database can be easily deployed.
+Cardinality shows the numbers: 1:1, 1:N, N:1, or M:N.
+Once you draw the ER diagram, it's pretty easy to convert it into actual database tables.

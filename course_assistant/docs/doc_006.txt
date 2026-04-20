@@ -1,10 +1,10 @@
-Topic: Object-Oriented Programming (OOP)
-Object-Oriented Programming is a programming paradigm based on the concept of "objects", which can contain data and code. The data is in the form of fields (often known as attributes or properties), and the code is in the form of procedures (often known as methods).
+Object-Oriented Programming (OOP)
+OOP revolves around "objects" that hold data (attributes) and code (methods).
 
-The four pillars of OOP:
-1. Encapsulation: Bundling the data and the methods that act on that data into a single unit (class). It restricts direct access to some of the object's components.
-2. Abstraction: Hiding internal complex details and showing only the essential features of the object.
-3. Inheritance: A mechanism where one class inherits properties and behaviors from a parent class, promoting code reusability.
-4. Polymorphism: The ability of different objects to respond in a unique way to the same method call.
+The 4 main concepts:
+- Encapsulation: bundling data and methods together in a class and restricting direct access.
+- Abstraction: hiding the complicated internal stuff and only showing what's needed.
+- Inheritance: classes can inherit properties from parent classes to reuse code.
+- Polymorphism: different objects can respond differently to the same method.
 
-Java, C++, and Python are widely used OOP languages.
+Python, Java, and C++ are the big OOP languages.

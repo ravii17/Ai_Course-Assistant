@@ -1,9 +1,8 @@
-Topic: Memory Management
-Memory management in operating systems securely and efficiently distributes computer memory to active applications.
+Memory Management
+Memory management in the OS efficiently handles giving out RAM to active programs.
 
-Key Concepts:
-1. Paging: A memory management scheme that eliminates the need for contiguous allocation of physical memory. Logical memory is divided into blocks of the same size called 'pages', and physical memory into 'frames'. The Page Table translates logical addresses to physical addresses.
-2. Segmentation: Divides memory into variable-size segments reflecting the logical structure of a program (e.g., main function, stack, symbol table).
-3. Virtual Memory: An abstraction that gives the illusion of a very large memory. It allows execution of processes that are not completely in memory.
-4. Page Faults: Occurs when a program attempts to access a block of memory that is not stored in the physical memory. The OS must then fetch it from disk (swap space).
-Page replacement algorithms like LRU (Least Recently Used) or FIFO decide which page to evict when memory is full.
+Important concepts:
+- Paging: splits memory into standard-sized 'pages' (logical) and 'frames' (physical) so we don't need contiguous memory. A page table keeps track.
+- Segmentation: splits memory into variable sizes based on the program's structure.
+- Virtual Memory: makes it seem like we have more RAM than we actually do by swapping parts to the hard drive.
+- Page Faults: when a program tries to access memory that isn't currently loaded, so the OS fetches it from the disk. Stuff like LRU determines which old page gets kicked out.

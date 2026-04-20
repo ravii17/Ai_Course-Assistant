@@ -1,19 +1,12 @@
-Topic: SQL Basics
-Structured Query Language (SQL) is the standard language for dealing with Relational Databases. It can be used to insert, search, update, and delete database records.
+SQL Basics
+SQL is used to work with relational databases.
 
-Core commands are divided into categories:
-1. DDL (Data Definition Language): Deals with database schemas and descriptions.
-   - CREATE: Creates a new table, a view of a table, or other object.
-   - ALTER: Modifies an existing database object.
-   - DROP: Deletes an entire table, a view, or other object.
-   
-2. DML (Data Manipulation Language): Deals with data manipulation.
-   - INSERT: Creates a record.
-   - UPDATE: Modifies records.
-   - DELETE: Deletes records.
-   
-3. DQL (Data Query Language): Contains exactly one command, SELECT, to retrieve data.
+The main command types:
+- DDL (Data Definition): for schemas. CREATE, ALTER, and DROP tables or views.
+- DML (Data Manipulation): for the data itself. INSERT, UPDATE, DELETE records.
+- DQL (Data Query): just the SELECT command to fetch data.
 
 Example query:
 SELECT employee_name, salary FROM Employees WHERE salary > 50000;
-This simple query demonstrates SQL's declarative nature, focusing on what data to retrieve rather than how to retrieve it.
+
+It's declarative, meaning you just tell it what you want, not how to get it.
