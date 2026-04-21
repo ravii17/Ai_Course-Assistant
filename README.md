@@ -1,17 +1,17 @@
 # 🎓 Academic Course Assistant
 
-**AI-powered Agentic RAG for B.Tech Students** — built with LangGraph, Grok (xAI), and Streamlit.
+**AI-powered Agentic RAG for B.Tech Students** — built with LangGraph, Gemini (Google), and Streamlit.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10+-green.svg)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic-orange.svg)
-![Grok](https://img.shields.io/badge/Gemini-purple.svg)
+![Gemini](https://img.shields.io/badge/LLM-Gemini-purple.svg)
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.10+
-- Grok API Key from xAI
+- Gemini API Key from Google
 
 ### Installation
 
@@ -29,7 +29,7 @@
 3. Set up your API key:
    Create a `.env` file in the `course_assistant` directory:
    ```env
-   GROK_API_KEY=your_grok_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
    ```
 
 4. Run the application:
@@ -63,7 +63,7 @@
 │         └──────────────────┴──────────────────┘             │
 │                                                              │
 │  ┌────────────────────────────────────────────────────────┐  │
-│  │                Grok LLM (xAI)                          │  │
+│  │                Gemini LLM (Google)                          │  │
 │  │  - Intent Classification                               │  │
 │  │  - Search Query Generation                             │  │
 │  │  - Answer Synthesis                                    │  │
@@ -82,20 +82,20 @@
 
 #### 1. Router Node
 - Classifies user intent: `search_docs`, `ask_question`, or `greet`
-- Uses Grok for intent classification
+- Uses Gemini for intent classification
 - Directs flow to appropriate node
 
 #### 2. Search Node
-- Generates search query using Grok
+- Generates search query using Gemini
 - Searches FAISS vector database
 - Retrieves top relevant documents
 
 #### 3. Answer Node
-- Synthesizes answer using Grok
+- Synthesizes answer using Gemini
 - Provides citations and confidence scores
 - Handles follow-up questions
 
-#### 4. Grok LLM (xAI)
+#### 4. Gemini LLM (Google)
 - Intent classification
 - Search query generation
 - Answer synthesis
@@ -229,7 +229,7 @@ print(f"Documents processed: {stats['doc_count']}")
 docker build -t course-assistant .
 
 # Run the container
-docker run -p 8501:8501 -e GROK_API_KEY=your_key course-assistant
+docker run -p 8501:8501 -e GEMINI_API_KEY=your_key course-assistant
 ```
 
 ### Cloud Platforms
@@ -252,9 +252,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👥 Team
 
-- [Your Name] - Project Lead
-- [Team Member 2] - Backend Developer
-- [Team Member 3] - Frontend Developer
+- [Ravi Kumar] - Project Lead/ Backend Developer/ Frontend Developer
 
 ## 📞 Support
 
