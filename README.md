@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10+-green.svg)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic-orange.svg)
-![Grok](https://img.shields.io/badge/LLM-Grok-purple.svg)
+![Grok](https://img.shields.io/badge/Gemini-purple.svg)
 
 ## 🚀 Quick Start
 
